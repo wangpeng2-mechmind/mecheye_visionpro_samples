@@ -105,6 +105,10 @@ Now you can run the sample to obtain intensity and range images.
 
 Parameters of the laser profiler can be adjusted in two ways: in Mech-Eye Viewer or in the script. Mech-Eye Viewer is recommended, as it provides a graphical interface and allows you to acquire the images immediately after adjusting the parameters to check the result.
 
+>Note:
+>
+>You can also view the current parameter values in Mech-Eye Viewer.
+
 #### Adjust Parameters with Mech-Eye Viewer
 
 The [user manual](https://docs.mech-mind.net/en/eye-3d-profiler/latest/viewer/parameter-reference.html) provides detailed instructions on adjusting the parameters with Mech-Eye Viewer.

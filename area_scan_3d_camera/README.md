@@ -56,15 +56,15 @@ After copying the dynamic-link libraries, the path of the reference in the scrip
 
 5. Double-click **Mech-Eye Industrial 3D Camera** to open it in Job Editor.
 
-    ![vp-3](https://docs.mech-mind.net/download/github/vp/vp-3.jpg)
+    ![vp-3](https://docs.mech-mind.net/download/github/vp/vp-3.png)
 
 6. In the left panel of the **Job Editor** window, double-click **Image Acquisition** to open the block.
 
-    ![vp-4](https://docs.mech-mind.net/download/github/vp/vp-4.jpg)
+    ![vp-4](https://docs.mech-mind.net/download/github/vp/vp-4.png)
 
-7. In the pop-up **Image Acquisition** window, click the **Create/Edit Script** ![button](https://docs.mech-mind.net/download/github/vp/create-edit-script.jpg) to open Script Editor.
+7. In the pop-up **Image Acquisition** window, click the **Create/Edit Script** ![button](https://docs.mech-mind.net/download/github/vp/create-edit-script.png) to open Script Editor.
 
-8. In the pop-up **Image Acquisition Script** window, click the **Add/Remove Reference** ![button](https://docs.mech-mind.net/download/github/vp/add-remove-reference.jpg) to edit the references.
+8. In the pop-up **Image Acquisition Script** window, click the **Add/Remove Reference** ![button](https://docs.mech-mind.net/download/github/vp/add-remove-reference.png) to edit the references.
 
 9. In the pop-up **Add/Remove Referenced Assemblies** window, scroll down to the bottom and double-click **MechEyeApiNet.dll** to edit its path.
 
@@ -82,7 +82,7 @@ Before running the script, change the IP address in the script so the camera can
    status = profiler.Connect("192.168.20.15", 10000);
    ```
 
-2. Click the **Build** ![button](https://docs.mech-mind.net/download/github/vp/build.jpg) to save the changes.
+2. Click the **Build** ![button](https://docs.mech-mind.net/download/github/vp/build.png) to save the changes.
 
 3. Close the **Image Acquisition Script** and **Image Acquisition** windows to return to the Job Editor window.
 
@@ -90,7 +90,7 @@ Before running the script, change the IP address in the script so the camera can
 
 Now you can run the sample to obtain intensity and range images.
 
-1. Click the **Run Job Once** ![button](https://docs.mech-mind.net/download/github/vp/run-job-once.jpg) in the upper left to run the job.
+1. Click the **Run Job Once** ![button](https://docs.mech-mind.net/download/github/vp/run-job-once.png) in the upper left to run the job.
 
 2. Check the obtained images: In the left panel, double-click on the corresponding tool to check the color or range image.
 
@@ -103,6 +103,10 @@ Now you can run the sample to obtain intensity and range images.
 
 Parameters of the camera can be adjusted in two ways: in Mech-Eye Viewer or in the script. Mech-Eye Viewer is recommended, as it provides a graphical interface and allows you to acquire the images immediately after adjusting the parameters to check the result.
 
+>Note:
+>
+>You can also view the current parameter values in Mech-Eye Viewer.
+
 #### Adjust Parameters with Mech-Eye Viewer
 
 The [user manual](https://docs.mech-mind.net/en/eye-3d-camera/latest/viewer/parameter-reference.html) provides detailed instructions on adjusting the parameters with Mech-Eye Viewer.
@@ -114,3 +118,4 @@ The script in the VisionPro sample calls the C# Mech-Eye API to control the came
 The names of the methods for parameter adjustments follow this pattern: `SetXxxValue()`, where `Xxx` is a data type.
 
 [Mech-Eye API Reference](https://docs.mech-mind.net/api-reference/eye-api-camera-cpp/2.2.0/index.html) provides explanations of parameter data types and the methods for parameter adjustments.
+
