@@ -7,7 +7,7 @@ This documentation provides instructions on using the VisionPro samples to contr
 The following sample is provided:
 
 * **AcquireColorAndRangeImages**  
-  Acquires 2D and depth data and generates color and range images.
+  Acquires 2D and depth data and generates 2D image and depth map.
 
 ## Instructions
 
@@ -88,14 +88,14 @@ Before running the script, change the IP address in the script so the camera can
 
 ### Obtain Intensity and Range Images
 
-Now you can run the sample to obtain intensity and range images.
+Now you can run the sample to obtain 2D image and depth map.
 
 1. Click the **Run Job Once** ![button](https://docs.mech-mind.net/download/github/vp/run-job-once.png) in the upper left to run the job.
 
-2. Check the obtained images: In the left panel, double-click on the corresponding tool to check the color or range image.
+2. Check the obtained images: In the left panel, double-click on the corresponding tool to check the 2D image or depth map.
 
-   * Intensity image: Double-click **CogAffineTransformTool1**.
-   * Range image: Double-click **Cog3DVisionDataReRenderTool1**.
+   * 2D image: Double-click **CogAffineTransformTool1**.
+   * Depth map: Double-click **Cog3DVisionDataReRenderTool1**.
 
 3. If the obtained images do not meet your requirements, refer to the next section for instructions on adjusting the parameters of the camera.
 
