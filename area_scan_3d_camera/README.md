@@ -79,7 +79,7 @@ Before running the script, change the IP address in the script so the camera can
 1. In the **Image Acquisition Script** window, locate the following line, and change the IP address in this line to the actual IP address of the camera to be connected.
 
    ```csharp
-   status = profiler.Connect("192.168.20.15", 10000);
+   static string cameraIp = "192.168.23.245";
    ```
 
 2. Click the **Build** ![button](https://docs.mech-mind.net/download/github/vp/build.png) to save the changes.
