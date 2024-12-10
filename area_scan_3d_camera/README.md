@@ -117,5 +117,4 @@ The script in the VisionPro sample calls the C# Mech-Eye API to control the came
 
 The names of the methods for parameter adjustments follow this pattern: `SetXxxValue()`, where `Xxx` is a data type.
 
-[Mech-Eye API Reference](https://docs.mech-mind.net/api-reference/eye-api-camera-cpp/2.2.0/index.html) provides explanations of parameter data types and the methods for parameter adjustments.
-
+[Mech-Eye API Reference](https://docs.mech-mind.net/en/eye-3d-camera/latest/api/api-reference.html) provides explanations of parameter data types and the methods for parameter adjustments.
