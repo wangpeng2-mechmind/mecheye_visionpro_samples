@@ -30,13 +30,20 @@ The dynamic-link libraries of Mech-Eye SDK must be copied to the installation pa
 
 1. Go to the installation path of Mech-Eye SDK and open the following folder: *xxx/Mech-Eye SDK-x.x.x/API/dll*
 
-2. Copy the following 3 DLL files in the above folder:
+2. Copy the following 2 DLL files in the above folder:
 
    * **MechEyeApi.dll**
-   * **MechEyeAPiNet.dll**
    * **MechEyeApiWrapper.dll**
 
 3. Go to the installation path of VisionPro, open the **bin** folder, and paste the DLL files there.
+
+4. Go to the installation path of Mech-Eye SDK and open the following folder: *xxx/Mech-Eye SDK-x.x.x/API/dll/net48*
+
+5. Copy the following DLL file in the above folder:
+
+   * **MechEyeApiNet.dll**
+
+6. Go to the installation path of VisionPro, open the **bin** folder, and paste the DLL file there.
 
 ### Configure Script Reference
 
@@ -70,7 +77,7 @@ After copying the dynamic-link libraries, the path of the reference in the scrip
 
 9. In the pop-up **Add/Remove Referenced Assemblies** window, scroll down to the bottom and double-click **MechEyeApiNet.dll** to edit its path.
 
-10. In the pop-up window, click the **Browse...** button, go to the installation path of Mech-Eye SDK (*xxx/Mech-Eye SDK-x.x.x/API/dll*), and select the **MechEyeApiNet.dll** file.
+10. In the pop-up window, click the **Browse...** button, go to the installation path of Mech-Eye SDK (*xxx/Mech-Eye SDK-x.x.x/API/dll/net48*), and select the **MechEyeApiNet.dll** file.
 
 11. Click the **OK** button to close the above window. Click the **OK** button in the **Add/Remove Referenced Assemblies** window to close this window as well.
 
